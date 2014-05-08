@@ -7,16 +7,16 @@ A conditional helpers for handlebars to check if a value is in an array
 
 ### in JavaScript
 
-  var arrayOfStuff = ['apples', 'oranges'];
+    var arrayOfStuff = ['apples', 'oranges'];
 
 ### in handlebars template
 
-  {{#inArray arrayOfStuff 'apples'}}
+	{{#inArray arrayOfStuff 'apples'}}
 	This will output
 	{{else}}
 	This will not
 	{{/inArray}}
-	
+
 	{{#inArray arrayOfStuff 'cannonballs'}}
 	This will not output
 	{{else}}
